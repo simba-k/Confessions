@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+    <LinearLayout
+        style="@style/ListLayout"
+        >
+            <TextView
+                style="@style/ListHeader"
+                android:text="For Confessions:"/>
+            <TextView
+                style="@style/BulletedListItem"
+                android:text="Don't violate laws or Facebook Community Standards."
+                />
+        <TextView
+            style="@style/BulletedListItem"
+            android:text="No General School Questions"
+            />
+        <TextView
+            style="@style/BulletedListItem"
+            android:text="No URLs or Images"
+            />
+        <TextView
+            style="@style/BulletedListItem"
+            android:text="No verbatim quotes from other sources"
+            />
+        <TextView
+            style="@style/BulletedListItem"
+            android:text="No Commerce of any kind"
+            />
+        <TextView
+            style="@style/BulletedListItem"
+            android:text="Don't advertise parties\n(for the most part)"
+            />
+        <TextView
+            style="@style/ListHeader"
+            android:text="For Comments:"/>
+        <TextView
+            style="@style/BulletedListItem"
+            android:text="Don't be a jerk to others"
+            />
+        <TextView
+            style="@style/BulletedListItem"
+            android:text="Don't spam"
+            />
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

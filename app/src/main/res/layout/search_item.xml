@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/search_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="So last year I was spending a lot of time hanging out with this girl, and we got along really well, and I was hoping that this could turn into something more. So I started hinting/flirting in that direction just to test the waters and she picked up on it really quickly and shut my ass DOWN. She liked being friends, she didn't want anything else, and if I wasn't ok with that maybe we shouldn't hang out anymore. Old story, I know, and one I've been through before. What I did differently this time, though, was instead of pouting or whining about it and letting it make everything weird, I just sucked it up and took her up on her offer to be friends with no expectations of anything beyond that. Yeah, I was disappointed at first, but I got over it. And you know what one of the big advantages of having a female friend is? She probably knows more women than you do, and probably has a better sense of who you'd be a good match with than you do, and last summer she set me up with a friend of hers who is an absolute sexual FREAK. Best sex of my life, and SO MUCH of it. She'd always had a thing for slightly nerdy boys, but they never approached her so she always just ended up with strings of one-night hookups with guys who wouldn't acknowledge her afterwards. Me, I'm happy to keep coming back for more, and it's working out pretty fucking great for both of us. So yeah, if a girl just wants to be friends, give that shit a try."
+        android:gravity="left"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+    <TextView
+        android:id="@+id/search_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:layout_marginTop="8dp"
+        android:text="12/17/1244"
+        android:layout_marginRight="30dp"
+        android:layout_gravity="right"/>
+</LinearLayout>

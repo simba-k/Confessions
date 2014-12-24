@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            style="@style/ListLayout">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="42dp"
+                android:layout_marginTop="22dp"
+                android:textColor="#000"
+                android:layout_marginRight="42dp"
+                android:textSize="15sp"
+                android:text="\t\t\tUC Santa Cruz Confessions continues a tradition of providing Banana Slugs with an anonymous tool to share their stories with the entire student body. Confessions bring students together online and help to establish a concept of UCSC culture that otherwise wouldn't be possible on such a decentralized campus.
+So what are you waiting for? Submit a confession; share your thoughts on a campus issue! Alert everyone to the success of that crazy party you threw! Share those embarrassing details you don't want to tell anyone else. When you submit a confession, your name is not associated with it, even to those running the page. Your secret is safe with us."/>
+            <TextView
+                style="@style/ListHeader"
+                android:text="The Team"/>
+            <TextView
+                android:id="@+id/mods_credit"
+                style="@style/BulletedListItem"
+                android:text="Mods: Jenny Zhou, Adham Taman, Brian DeAngelis, Kong Vue"/>
+            <TextView
+                android:id="@+id/spencer_credit"
+                style="@style/BulletedListItem"
+                android:text="App Designer Developer:\nSpencer Butterfield"/>
+            <TextView
+                android:id="@+id/simba_credit"
+                style="@style/BulletedListItem"
+                android:text="Web App Developer:\nWade 'Simba' Khadder"/>
+            <TextView
+                android:id="@+id/archie_credit"
+                style="@style/BulletedListItem"
+                android:text="Web Designer Developer\nPage Manager:\nArchavanich 'R-Chi' Kawmongkolsi"/>
+            <TextView
+                android:id="@+id/dylan_credit"
+                style="@style/BulletedListItem"
+                android:text="Marketing Strategy\nPage Manager:\nDylan Quitiquit Hoffman"/>
+         </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

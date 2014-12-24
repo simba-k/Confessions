@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Confessions</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_test">test</string>
+    <string name="title_activity_search">Search</string>
+    <string name="confessions">Confessions</string>
+    <string name="search">Search</string>
+    <string name="title_activity_pager">Confessions</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_rules">Rules</string>
+    <string name="title_activity_about">About</string>
+
+</resources>
